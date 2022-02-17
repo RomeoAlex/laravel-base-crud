@@ -6,7 +6,7 @@
     @csrf
     @method('POST')
     <div>
-        <label for="title" class="form-label">Title</label>
+        <label for="title" class="form-label">Titolo:</label>
         <input type="text" class="form-control" id="title" name="title">
     </div>
     <div>
@@ -14,7 +14,7 @@
         <input type="text" class="form-control" id="thumb" name="thumb">
     </div>
     <div>
-        <label for="price" class="form-label">price</label>
+        <label for="price" class="form-label">Prezzo</label>
         <input type="text" class="form-control" id="price" name="price">
     </div>
     <div>
@@ -26,7 +26,7 @@
         <input type="text" class="form-control" id="sale_date" name="sale_date">
     </div>
     <div>
-        <label for="type" class="form-label">Tpo</label>
+        <label for="type" class="form-label">Tipo</label>
         <input type="text" class="form-control" id="type" name="type">
     </div>
     <div>

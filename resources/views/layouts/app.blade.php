@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
-    <main>
-        @yield('main_content')
-    </main>
+    <div class="container">
+        <main>
+            @yield('main_content')
+        </main>
+    </div>
+    
     
 </body>
 </html>
